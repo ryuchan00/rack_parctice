@@ -1,2 +1,2 @@
-# rake_parctice
+# rack_parctice
 Perfect Ruby
