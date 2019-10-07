@@ -16,7 +16,7 @@ Rack 1.3 (Release: 2.0.7)
 ## 最も小さなRackアプリケーション
 
 ```
-$ be rackup config_1.ru
+$ bundle exec rackup config_1.ru
 [2019-09-08 18:11:42] INFO  WEBrick 1.4.2
 [2019-09-08 18:11:42] INFO  ruby 2.5.0 (2017-12-25) [x86_64-darwin16]
 [2019-09-08 18:11:42] INFO  WEBrick::HTTPServer#start: pid=9851 port=9292
@@ -38,7 +38,7 @@ Hello!%
 ```
 
 ```
-$ be rackup config_2.ru
+$ bundle exec rackup config_2.ru
 [2019-09-08 18:54:37] INFO  WEBrick 1.4.2
 [2019-09-08 18:54:37] INFO  ruby 2.5.0 (2017-12-25) [x86_64-darwin16]
 [2019-09-08 18:54:37] INFO  WEBrick::HTTPServer#start: pid=35528 port=9292
